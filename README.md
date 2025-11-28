@@ -42,33 +42,39 @@ Fiber optic links can be used for transmission of digital as well as analog sign
 ---
 
 ## BLOCK DIAGRAM
+<img width="583" height="212" alt="image" src="https://github.com/user-attachments/assets/c35e54c0-0548-44fd-8a64-a0ba835c67d3" />
 
-*(Insert block diagram here)*
-
----
 
 ## CONNECTION DIAGRAM  
 **Setting up an Analog Link**
 
-*(Insert connection diagram here)*
+<img width="586" height="124" alt="image" src="https://github.com/user-attachments/assets/ddf4d8d9-debb-4603-adc2-0da02a34f803" />
 
----
+
 
 ## TABULATION  
 **Transmission through Analog Link**
 
+<img width="1600" height="1312" alt="17639575538156220484554220972572" src="https://github.com/user-attachments/assets/918bf323-9e95-45b1-8790-6cb9b0e204c4" />
+
 | Frequency (Hz) | Output Signal Amplitude (Vo) | Gain = Vo/Vi | Gain in dB |
-|----------------|------------------------------|--------------|------------|
-|                |                              |              |            |
-
----
-
+|----50Hz--------|-------138V-------------------|-----0.644---|----0.988--------|
+|    8.33Hz              150V                          0.700       1.549
+|    9.86Hz              138V                    |     0.691  |    1.605      |
+     10.2Hz              148V                          0.691       1.605
+     15KHz               148V                          0.684       1.624
+     16KHz               148V                          0.672       1.726
+     33KHz               148V                          0.682       1.824
+     3MHz                136V                          0.28        1.934
+     
 ## MODEL GRAPH
 
-*(Insert model graph here)*
+<img width="674" height="331" alt="17639574149906912604211665294583" src="https://github.com/user-attachments/assets/63a3f696-2def-4af5-8ce4-edc71f1aaa81" />
 
----
+<img width="1350" height="990" alt="17639574777783351570689751360517" src="https://github.com/user-attachments/assets/52c2dbf4-758d-4a0c-a894-6d97f55277d8" />
 
-## RESULT
+## Result:
 
-*(Summarize observations and conclusions here)*
+The experimental verification of frequency response of analog fiber optic is done successfully
+
+esult:
